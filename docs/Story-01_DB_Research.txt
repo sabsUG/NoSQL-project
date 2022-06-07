@@ -31,3 +31,4 @@ Cost: $13
 Asimismo, seria importante notar que se puede importar datos desde un archivo de excel, por lo tanto una forma de organizar la información es por una tabla en excel con todo lo que se necesita de los paises buscados y posteriormente exportarla a MongoDB.
 
 Otro factor a tomar en cuenta, es que MongoDB se puede manejar por medio de comandos o por algún método como MongoDB compass para operar las bases de datos con mayor facilidad.
+Fuente de la cual se obtuvo parte de la información: tutorialspoint.com MongoDB
