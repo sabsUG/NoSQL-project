@@ -1,0 +1,33 @@
+La base de datos a utilizar será MongoDB, de la cual se investigaron ciertos factores como comandos básicos para poder familiarizarse con la misma. Algunos de los comandos encontrados fueron:
+use DATABASE_NAME 
+db
+Show dbs (Nota: para que una nueva base de datos se muestre, debe contener al menos un documento)
+db.movie.insert({…}) —> Insertar información 
+db.dropDatabase() —> Esto va a eliminar la base de datos
+db.createCollection(name, options) —> Crear una colección. El parámetro “options” es opcional. Ejemplo: db.createCollection(“myC”) {“ok” : 1}.
+Show collections —> mostrar colecciones
+Algo importante a destacar es que mongoDB crea una colección automática cuando se inserta un documento.
+db.COLLECTION_NAME.drop() —> elimina una colección de la base de datos
+
+Por otro lado, MongoDB utiliza varios tipos de datos, tales como:
+String
+Boolean
+Object
+Null
+Symbol
+Min/Max keys
+Arrays
+Double
+Entre otras…
+
+Para conocer un poco mas sobre como se inserta información en una tabla, se puede observar este ejemplo:
+db.users.insert ({
+Country: “Costa Rica”
+Product: “Milk”,
+Cost: $13
+})
+…
+
+Asimismo, seria importante notar que se puede importar datos desde un archivo de excel, por lo tanto una forma de organizar la información es por una tabla en excel con todo lo que se necesita de los paises buscados y posteriormente exportarla a MongoDB.
+
+Otro factor a tomar en cuenta, es que MongoDB se puede manejar por medio de comandos o por algún método como MongoDB compass para operar las bases de datos con mayor facilidad.
